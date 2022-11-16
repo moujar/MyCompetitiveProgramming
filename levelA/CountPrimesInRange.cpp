@@ -17,6 +17,8 @@ bool isprime(int n)
 }
 
 // o(n * sqrt(n))
+// Forward thinking
+
 int countPrimesInRange(int n)
 {
     int count = 0;
@@ -29,6 +31,7 @@ int countPrimesInRange(int n)
 }
 
 // o(n * long(n))
+// Backward thinking
 int countPrimesInRange(int n)
 {
     vector<bool> isPrime(n+1,true);
@@ -50,5 +53,3 @@ int countPrimesInRange(int n)
     }
     return count;
 }
-
-  

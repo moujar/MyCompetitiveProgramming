@@ -8,4 +8,3 @@ def hello(n1,n2):
             n2*=2
             i+=1
 
-print(hello(1,1))

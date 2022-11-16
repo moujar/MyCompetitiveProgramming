@@ -52,7 +52,8 @@ bool isprime(ll n)
 
 // i <= sqrt(n) 
 // i * i <= n
- 
+
+
 bool isprime(ll n)
 {
     if(n == 2)
